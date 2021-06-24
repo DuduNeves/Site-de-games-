@@ -1,0 +1,23 @@
+#menu ul {
+    padding: 30px; /* Espaçamento interno de 0px (Conteúdo da lista) */
+    margin-top: -6px; /* Espaçamneto externo de opx da lista */
+    margin-left: -6px;
+    margin-right: -6px;
+    background-color:rgb(255, 251, 0); /* Cor de  fundo da Lista */
+    list-style: none; /* Lista não terá  as bolinhas ( . ) na frente. ex: ( . numero 1) não terá essa bolinha e ficará ( numero 1) apenas */
+    outline: 3px solid black;
+}
+/* Regra se aplica aos itens da lista do menu */
+#menu ul li {
+    display: inline; /* Os itens da lista ficarão em uma única linha */
+    padding: 50px; /* Espaçamento interno entre os itens */
+   
+}
+/* A regra se aplica ao link da lista do menu */
+
+#menu ul li a {
+    background-color:rgba(83, 64, 0, 0); /* Cor de fundo  do link */
+    color:rgb(0, 0, 0); /* Core do texto do link */
+    text-decoration: none; /* Sem sublinhado no link */
+    border-bottom:  3px solid rgb(0, 0, 0); /* Borda em baixo do nivel do menu com sistemas de cores X (Próxima aula)  */
+}

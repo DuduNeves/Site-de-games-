@@ -1,0 +1,139 @@
+<!DOCTYPE html
+<html lang="pt-br">
+    
+    <head> 
+
+        <title> exemplo 2 </title>
+       
+        <meta charset="utf-8"/> <!-- Sistema de codificação ç á e outros acentos e caracteres que tem somente na lingua portuguesa-->
+       
+       <style>
+            /* CSS */
+            #caixa {
+                background-color: lightblue; /*Cor de fundo */
+                width: 450px; /* LARGURA DA CAIXA */
+                border: 8px solid green; /*BORDA DA CAIXA */
+                padding: 50px; /* Espaçamento interno da caixa, que deixa o texto escrito dentro centralizada ao meio */
+                margin: 50px auto; /* Espaçamento externo da caixa */
+
+            }
+            /* Caso tivesse outros Ul, a regra se aplicaria apenas ao elemento ul dentro do menu */
+            
+            #conteudo{
+                width: 800px;
+                margin: 50px auto;
+            }
+            #tabela{
+                font-family: Arial, Helvetica, sans-serif;
+                width: 100%; /*Ocupa 100% dos 800px que definimos */
+                border-collapse: collapse; /* Retira os espaços dentro das bordas das celulas */
+                background-color: blanchedalmond;
+
+            }
+            td, th{
+                border: 1px solid rgb(0, 0, 0);
+                padding: 10px; /* Espaçamento interno de cada celula */
+            }   
+            th {
+                background-color: rgb(255, 238, 0); /* Cabeçalho com fundo verde */
+                color: black; /* Cabeçalho com texto preto */
+            }
+            tr:hover { /* Comando para quando passar o mause em cima da linha muda a cor */
+                background-color: rgb(255, 238, 0);
+
+            }
+        </style>
+        <link rel="stylesheet" href="../css/menu.css">
+        <link rel="stylesheet" href="../css/imagemtabela.css">
+    
+    </head> 
+
+    <body> 
+        <nav id="menu">   <!--Menu de  navegação-->
+            <ul> <!-- Lista não ordenada-->
+                <!-- A significa âncora (link) -->
+                <li> <a href="home.html"> Home </a> </li> <!--Lista item ou item da lista-->
+                <li> <a href="jogo.html"> Descubra seu Rank </a> </li>
+                <li> <a href="galeria.html">  Galeria de imagem  </a> </li>
+                <li> <a href="videos.html"> Videos sobre Games </a> </li>
+                <li> <a href="tabela.html"> Tabela de Games </a> </li>
+                <li> <a href="sobre.html"> Sobre </a> </li>
+            </ul>
+        </nav>
+        <div id="conteudo">
+                <table id="tabela"> <!--Criamos uma tabela-->
+                    <tr> <!-- cria uma linha-->
+                        <th> Nome do Jogo </th>  <!-- cabeçalho-->
+                        <th>  Site do Jogo </th>
+                        <th> Genero do Jogo </th>
+                        <th> Plataforma </th>
+                    </tr>
+                    <tr>
+                        <td>  Assassin's creed  </td>
+                        <td> <a href="https://www.ubisoft.com/pt-br/game/assassins-creed"> https://www.ubisoft.com/pt-br/game/assassins-creed </a></td>
+                        <td> Jogo de RPG de Ação </td>
+                        <td> PC, Xbox 360, Xbox one, Ps3, ps4</td>
+                    </tr>
+                    <tr> <!-- cria uma linha-->
+                        <td> GTA </td> <!-- criou uma cedula -->
+                        <td> <a href="https://www.epicgames.com/store/pt-BR/p/grand-theft-auto-v"> https://www.epicgames.com/store/pt-BR/p/grand-theft-auto-v </a></td>
+                        <td>Jogo de Tiro, Mundo aberto </td>
+                        <td> PC, Xbox 360, Xbox one, Ps3, ps4</td>
+                    </tr>
+                    <tr>
+                        <td>Fortnite</td>
+                        <td> <a href="https://www.epicgames.com/fortnite/pt-BR/home">https://www.epicgames.com/fortnite/pt-BR/home</a></td>
+                        <td>Jogo de Tiro, Battle Royale </td>
+                        <td> PC, celular, Xbox one, ps4 </td>
+                    </tr>
+                    <tr>
+                        <td> Rocket League</td>
+                        <td> <a href="https://www.rocketleague.com/pt-br/"> https://www.rocketleague.com/pt-br/ </a></td>
+                        <td>Jogo de Futebol com Carros</td>
+                        <td> PC, Xbox one, Ps4</td>
+                    </tr>
+                    <tr>
+                        <td> Minecraft </td>
+                        <td> <a href="https://www.minecraft.net/pt-pt/"> https://www.minecraft.net/pt-pt/ </a></td>
+                        <td>Jogo de Aventura, Mundo aberto </td>
+                        <td> PC, Xbox one, Ps4, celular</td>
+                    </tr>
+                    <tr>
+                        <td> Rainbow six siege  </td>
+                        <td> <a href="https://www.ubisoft.com/pt-br/game/rainbow-six/siege">https://www.ubisoft.com/pt-br/game/rainbow-six/siege </a></td>
+                        <td> Jogo de Tiro, Estrategia </td>
+                        <td> PC, Xbox one, Ps4</td>
+                    </tr>
+                    <tr>
+                        <td>  The legend of Zelda  </td>
+                        <td> <a href="https://www.zelda.com/"> https://www.zelda.com/ </a></td>
+                        <td> Jogo de RPG / Aventura, Mundo aberto </td>
+                        <td> PC, nintendo switch</td>
+                    <tr>
+                        <td>  Super Mario Bros  </td>
+                        <td> <a href="https://mario.nintendo.com/"> https://mario.nintendo.com/ </a></td>
+                        <td> Jogo de Aventura </td>
+                        <td> PC, Ps2, ps1, supernintendo, Nintendo switch</td>
+                    </tr>
+                    <tr>
+                        <td>  Call of Duty Black Ops 2  </td>
+                        <td> <a href="https://www.callofduty.com/br/pt/blackops2"> https://www.callofduty.com/br/pt/blackops2 </a></td>
+                        <td> Jogo de Tiro </td>
+                        <td> PC, Xbox 360, Xbox one, Ps3</td>
+                    </tr>
+                    <tr>
+                        <td>  Call of Duty War Zone </td>
+                        <td> <a href="https://www.callofduty.com/br/pt/warzone"> https://www.callofduty.com/br/pt/warzone</a></td>
+                        <td> Jogo de Tiro, Battle Royale </td>
+                        <td> PC, Xbox one, Ps4</td>
+                    </tr>
+                    
+                    
+                </table>
+                
+              
+
+        </div>
+    </body> 
+
+</html> 
