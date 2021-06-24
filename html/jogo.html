@@ -1,0 +1,69 @@
+<!DOCTYPE html
+<html lang="pt-br">
+    
+    <head> 
+
+        <title> exemplo 2 </title>
+       
+        <meta charset="utf-8"/> <!-- Sistema de codificação ç á e outros acentos e caracteres que tem somente na lingua portuguesa-->
+        
+       <style>
+            /* CSS */
+            #formulario {
+                    
+                outline: rgb(0, 0, 0) 2px solid; /* Borda externa azul de 2px de espessura */
+                padding: 30px; /* espeçamento interno de 10 pixels (px) */
+                width: 600px; /* Largura do formulario */
+                margin: 50px auto;/* Espaçamento externo de 40 px centralizado (auto) */
+                background-color: rgb(255, 230, 0);
+                
+            }
+            #divjogosfinalizados, #divjogosincompletos, #botao {
+                margin: 10px; 
+           
+            /* Caso tivesse outros Ul, a regra se aplicaria apenas ao elemento ul dentro do menu */
+            
+            }
+        </style>
+        <script type="text/javascript" src="../js/jogo.js" ></script>
+        <link rel="stylesheet" href="../css/menu.css">
+        <link rel = "stylesheet" href="../css/imagemjogo.css">
+        
+    </head> 
+
+    <body> 
+        <nav id="menu">   <!--Menu de  navegação-->
+            <ul> <!-- Lista não ordenada-->
+                <!-- A significa âncora (link) -->
+                <li> <a href="home.html"> Home </a> </li> <!--Lista item ou item da lista-->
+                <li> <a href="jogo.html"> Descubra seu Rank</a> </li>
+                <li> <a href="galeria.html">  Galeria de imagem  </a> </li>
+                <li> <a href="videos.html"> Videos sobre Games </a> </li>
+                <li> <a href="tabela.html"> Tabela de Games </a> </li>
+                <li> <a href="sobre.html"> Sobre </a> </li>
+            </ul>
+        </nav>
+
+        <div id="formulario">
+            <h2> Calculador de jogos </h2>
+            
+            <div id="divjogosfinalizados"> <!-- Container -->
+                <label> Jogos Finalizados </label> <!-- Rotulo -->  
+                <input type="number" id="jogosfinalizados" placeholder = "Quantidade"/> <!-- Caixa de entrada de dados  -->
+            </div>
+
+            <div id="divjogosincompletos">
+                <label> Jogos não finalizados </label> 
+                <input type="number" id ="jogosincompletos" placeholder = "Quantidade"/>
+            </div>
+
+            <div id="Botao">
+                <button onClick="organizar()" type="button"> Calcular </button>
+            </div>
+    
+        </div>
+        
+
+    </body> 
+
+</html> 
