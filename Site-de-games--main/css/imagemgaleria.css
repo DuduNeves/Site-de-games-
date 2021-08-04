@@ -1,0 +1,13 @@
+body{
+    background-image: url(img/42550563022_911d18db1a_k.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed; 
+    
+}
+
+.descrição{
+
+    color: rgb(0, 0, 0);
+    background: rgb(255, 251, 0);
+}

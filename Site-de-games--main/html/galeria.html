@@ -1,0 +1,130 @@
+<!DOCTYPE html
+<html lang="pt-br">
+    
+    <head> 
+
+        <title> exemplo 2 </title>
+       
+        <meta charset="utf-8"/> <!-- Sistema de codificação ç á e outros acentos e caracteres que tem somente na lingua portuguesa-->
+       
+       <style>           
+            .galeria{
+                margin: 10px auto; /* espaçamento externo de 5px */
+                border: 2px solid rgb(252, 206, 0) ; /* Borda solida com cor */
+                float: left; /* Flutuação ou alinhamento a esquerda */
+                width: 1000px; /* Largura de 180px */
+
+            }   
+
+            img{
+                width: 100%; /* Cobrem 100% da largura da div da galeria */
+                height: auto; /* auto é a propria altura da imagem que definimos de 400px */
+                border: rgb(255, 196, 0);
+            }
+            #conteudo {
+                width: 1000px; /* Largura das galerias */
+                margin: 50 auto; /* centralização da area e espaçamento externo de 60px */
+            }
+            .descrição{
+                padding: 20px; ; /* Espaçamento interno */
+                text-align: center; /* Alinhamento do texto */
+
+            }
+        </style>
+        <link rel="stylesheet" href="menu.css">
+        <link rel = "stylesheet" href="imagemgaleria.css">
+    </head> 
+
+    <body> 
+        <nav id="menu">   <!--Menu de  navegação-->
+            <ul> <!-- Lista não ordenada-->
+                <!-- A significa âncora (link) -->
+                <li> <a href="home.html"> Home </a> </li> <!--Lista item ou item da lista-->
+                <li> <a href="jogo.html"> Descubra seu Rank </a> </li>
+                <li> <a href="galeria.html">  Galeria de imagem </a> </li>
+                <li> <a href="videos.html"> Videos sobre Games</a> </li>
+                <li> <a href="tabela.html"> Tabela de Games </a> </li>
+                <li> <a href="sobre.html"> Sobre </a> </li>
+            </ul>
+        </nav>
+         <!--O atributo class permite associarmos  a mais de um elemento (reutilização)-->
+         <!--o atributo id perm,ite associarmos apenas um elemento-->
+        <div id="conteudo">
+            <div class="galeria"> 
+                <!-- SRC é o local e o nome da imagem-->
+                <!--Width é a largura da imagem em pixel -->
+                <!--HEIGHT é a altura da imagem em pixel -->
+                <a target="blank" href="./IMG/assisns.jpg.jpg" >
+                    <img src="./IMG/assisns.jpg.jpg" width="600" height="400">
+                </a>   
+                <div class="descrição"> <h2> Assasins creed </h2> </div> 
+            </div>
+            
+            <div class="galeria"> 
+                <a target="blank" href="./IMG/bo2.jpg.jpg" >
+                    <img src="./IMG/bo2.jpg.jpg" width="600" height="400">
+                </a>
+                <div class="descrição"> <h2> Call of duty black ops 2 </h2> </div> 
+            </div>
+            
+            <div class="galeria"> 
+                <a target="blank" href="./IMG/fort.jpg.jpg">
+                    <img src="./IMG/fort.jpg.jpg" width="600" height="400">
+                </a>
+                <div class="descrição"> <h2> Fortnite </h2> </div> 
+            </div> 
+            
+            <div class="galeria"> 
+                <a target="blank" href="./IMG/r6.jpg.jpg">
+                    <img src="./img/r6.jpg.jpg" width="600" height="400" >
+                    </a>
+                    <div class="descrição"> <h2> Rainbow six siege </h2> </div> 
+            </div>
+            
+            <div class="galeria"> 
+                <a target="blank" href="./IMG/mine.jpg.jpg" >
+                    <img src="./IMG/mine.jpg.jpg" width="600" height="400">
+                </a>
+                <div class="descrição"> <h2> Minecraft </h2> </div> 
+            </div>
+            
+            <div class="galeria"> 
+                <a target="blank" href="./img/warzone.jpg.jpg" >
+                    <img src="./img/warzone.jpg.jpg" width="600" height="400">
+                </a>
+                <div class="descrição"> <h2> War Zone </h2> </div> 
+            </div>
+            
+            <div class="galeria"> 
+                <a target="blank" href="./img/MARIO.jpg" >
+                    <img src="./img/MARIO.jpg" width="600" height="400">
+                </a>
+                <div class="descrição"> <h2> Super Mario Bros </h2> </div> 
+            </div>
+            
+            <div class="galeria"> 
+                <a target="blank" href="./img/rocket league.jpg" >
+                    <img src="./img/rocket league.jpg" width="600" height="400">
+                </a>
+                <div class="descrição"> <h2> Rocket league </h2> </div> 
+            </div>
+
+            <div class="galeria"> 
+                    <a target="blank" href="./img/zelda.jpeg" >
+                        <img src="./img/zelda.jpeg" width="600" height="400">
+                    </a>
+                <div class="descrição"> <h2> The Legend Of Zelda </h2> </div> 
+            </div>
+
+            <div class="galeria"> 
+                <a target="blank" href="./img/gta5.jpg" >
+                    <img src="./img/gta5.jpg" width="600" height="400">
+                </a>
+                <div class="descrição"> <h2> Grand Theft Auto V </h2> </div> 
+            </div>    
+
+           
+        </div>
+    </body> 
+
+</html> 
